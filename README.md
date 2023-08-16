@@ -14,7 +14,6 @@ attached to a pod running a MongoDB Container.
 - setup minikube and kubectl
 - start minikube with `minikube start`
 - run components with `kubectl apply -f <file_name>`
-- connect the minikube cluster to the mongo-express-service
-  - `minikube service mongo-express-service --url`
+- connect the minikube cluster to the mongo-express-service `minikube service mongo-express-service --url`
 - view your locally running application
 
